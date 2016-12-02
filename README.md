@@ -2,7 +2,7 @@
 ## 设置弹性盒模型
 1. display:flex (新版)
 2. display:-webkit-box; (旧版)
-## flex容器
+##flex容器
 1. 项目排列方向
   1.1 从左到右排练 <br>
   1.2 row-reverse 从右到左<br>
@@ -70,24 +70,40 @@
   1.1项目的排序，数字越小越靠前。默认为0 `接受负值`
 
 
+
   order：<int>
+
+
 
 
     项目的排序，数字越小越靠前，默认为1，`将0或负数转为1`
 
 
+
+
     -webkit-box-ordinal-group:
+
+
+
+
 2.项目占比（放大）
   2.1 所占栅格比例，默认为零 `项目的尺寸=容器的尺寸、总栅格数*当前栅格数`
+
+
 
 
   flex-grow：<int>
 
 
+
+
     老版弹性布局设置项目栅格
 
 
+
+
     -webkit-box-flex : <int>
+
 
 
 
@@ -117,4 +133,4 @@
      align-self: auto | flex-start | flex-end | center | baseline | stretch;
 
 
-     
+
