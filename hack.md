@@ -29,7 +29,7 @@
 
 
 <a href="tel:110">请拨打110电话</a>
-<a href="qq@.com">请发送邮件qq@.com</a>
+<a href="mailto:qq@.com">请发送邮件qq@.com</a>
 
 
 4.消除链接\表单\按钮默认背景样式
@@ -70,16 +70,22 @@ body{font-family:Helvetica;}
 2.禁止用户设置字体大小
 
 
--wekit-user-select:none     //安卓不支持
+-webkit-text-size-adjust:100%
+
+3.禁止用户选中字体
 
 
-3.font boosting *移动端设备为了是用户能看清楚大批量的字体，会自动对字体进行放大,但是只要是指定了容器的高度，就能解决*
+-wekit-user-select:none         //安卓不支持(可以用事件监听来实现 touchstatr)
+
+
+
+4.font boosting *移动端设备为了是用户能看清楚大批量的字体，会自动对字体进行放大,但是只要是指定了容器的高度，就能解决*
 
 
 p{max-height:9999999px}
 
 
-4.固定定位问题
+5.固定定位问题
 
 
 #移动端环境搭建
